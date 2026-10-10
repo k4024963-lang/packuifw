@@ -14,7 +14,7 @@ authors = [
 ]
 
 [project.scripts]
-pack_uifw = "pack_uifw.main:main"
+packuifw = "pack_uifw.main:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]
