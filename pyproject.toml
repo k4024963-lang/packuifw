@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "packuifw"
-version = "1.0.0"
+version = "1.0.0.post1"
 description = "Tool for packing .uifw firmware from shell folders. For Firmware Authority"
 readme = "README.md"
 requires-python = ">=3.8"
@@ -14,7 +14,7 @@ authors = [
 ]
 
 [project.scripts]
-packuifw = "pack_uifw.main:main"
+pack_uifw = "pack_uifw.main:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]
