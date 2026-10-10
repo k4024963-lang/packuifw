@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "packuifw"
+version = "1.0.0"
+description = "Tool for packing .uifw firmware from shell folders. For Firmware Authority"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [
+    {name = "fa_creepyr"}
+]
+
+[project.scripts]
+pack_uifw = "pack_uifw.main:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
