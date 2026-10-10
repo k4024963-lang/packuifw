@@ -96,7 +96,7 @@ Directories:
 ## Development
 
 ```bash
-git clone https://github.com/<your_username>/packuifw.git
+git clone https://github.com/k4024963-lang/packuifw.git
 cd packuifw
 pip install -e .
 ```
